@@ -117,7 +117,7 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
             ">
               <h3 className="font-semibold mb-4 text-lg text-black">掌握的技能✌️</h3>
               <div className="flex flex-wrap gap-3">
-                {['React', 'Python', "C++", "C", "JavaScript", "HTML", "CSS", "Git","Linux 部屬","Arduino","硬體拆裝 (這算技能吧?)","Neovim"].map(skill => (
+                {['Python', "C++", "C", "Git","Linux 部屬","Arduino","硬體拆裝 (這算技能吧?)","Neovim"].map(skill => (
                   <span key={skill} 
                     className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm 
                       hover:bg-blue-200 
@@ -349,6 +349,16 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
             >
               <FaDiscord className="mr-4 text-blue-600 text-2xl" size={24} />
               <span className="text-black">Discord（神奇海螺）遊戲好玩</span>
+            </a>
+            <a href="https://discordapp.com/users/kamin_zhi" 
+              className="flex items-center p-4 bg-gray-50 bg-opacity-50 backdrop-blur-sm rounded-lg
+                hover:bg-gray-100 hover:bg-opacity-60 
+                transition-all duration-200
+                hover:scale-[1.02] hover:shadow-lg
+                active:scale-95"
+            >
+              <FaDiscord className="mr-4 text-blue-600 text-2xl" size={24} />
+              <span className="text-black">Discord Server（說謝謝）進來聊天</span>
             </a>
             <a href="https://www.facebook.com/kaminzhi1" 
               className="flex items-center p-4 bg-gray-50 bg-opacity-50 backdrop-blur-sm rounded-lg

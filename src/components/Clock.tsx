@@ -67,7 +67,7 @@ const ClockDisplay = memo(({ time, position, allWindowsClosed }: ClockDisplayPro
           transition-all duration-1000 ease-out
           transform-gpu will-change-transform
           ${initialLoad ? 'opacity-0 translate-y-[-50px]' : 
-            allWindowsClosed 
+            allWindowsClosed
               ? 'opacity-0 translate-y-[-10px] scale-95'
               : 'opacity-100 translate-y-0 scale-100'
           }
@@ -90,6 +90,7 @@ const ClockDisplay = memo(({ time, position, allWindowsClosed }: ClockDisplayPro
         whitespace-nowrap
         transition-all duration-1000 ease-out
         transform-gpu will-change-transform
+        pointer-events-none select-none
         ${initialLoad ? 'opacity-0 translate-y-[50px]' :
           allWindowsClosed 
             ? 'opacity-100 translate-y-0 scale-100'
@@ -111,6 +112,7 @@ const ClockDisplay = memo(({ time, position, allWindowsClosed }: ClockDisplayPro
           transition-all duration-1000 ease-out
           font-['Carter_One']
           mb-1
+          pointer-events-none select-none
           ${!showClock ? 'opacity-0 scale-90 translate-y-[50px]' :
             allWindowsClosed 
               ? (showText ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-[10px]')
