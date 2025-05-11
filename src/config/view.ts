@@ -6,8 +6,8 @@ interface ViewConfig {
 }
 
 export const viewConfig: ViewConfig = {
-  title: 'kamin_zhi',
-  description: 'Personal Website',
-  favicon: '/favicon.ico',
-  tip: 'Visit My Blog'
-}; 
+  title: "kamin_zhi",
+  description: "Personal Website",
+  favicon: "/favicon.ico",
+  tip: "Visit My Blog",
+};
