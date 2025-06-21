@@ -138,7 +138,7 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
             "
             >
               <h3 className="font-semibold mb-4 text-lg text-black">
-                掌握的技能✌️
+                稍微接觸過的✌️
               </h3>
               <div className="flex flex-wrap gap-3">
                 {[
@@ -166,7 +166,7 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
               </div>
               <div className="my-4" />
               <h3 className="font-semibold mb-4 text-lg text-black">
-                會一點的 (就是有小玩過的🤣)
+                正在努力...😵‍💫
               </h3>
               <div className="flex flex-wrap gap-3">
                 {[
