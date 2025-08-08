@@ -21,7 +21,9 @@ export const projects: Project[] = [
     desc: "a discord bot base on discord.py",
     tech: ["Python", "DiscordBot"],
     link: "https://github.com/kaminzhi/Sakura",
-    image: "https://github.com/kaminzhi/Sakura/blob/newmain/image.jpg?raw=true",
+    image:
+      "https://i.pinimg.com/736x/fd/64/d8/fd64d86d76bb9dccbaf2381ed5f92002.jpg",
+    // image: "https://github.com/kaminzhi/Sakura/blob/newmain/image.jpg?raw=true",
     author: {
       avatar: "https://avatars.githubusercontent.com/u/72861268?v=4",
       name: "kamin_zhi",
@@ -81,4 +83,3 @@ export const projects: Project[] = [
     ],
   },
 ];
-

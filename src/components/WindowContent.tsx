@@ -124,10 +124,10 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
             </h2>
           </div>
           <p className="text-black mb-2 text-center text-xl">
-            我是那種什麼都會一點，什麼都不精的人
+            I'm a jack of all trades, master of none.
           </p>
           <p className="text-black mb-7 text-center text-xl italic">
-            部落格在左上角
+            The blog is in the top-left corner.
           </p>
           <div className="space-y-6">
             <div
@@ -138,7 +138,7 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
             "
             >
               <h3 className="font-semibold mb-4 text-lg text-black">
-                稍微接觸過的✌️
+                A little bit of contact✌️
               </h3>
               <div className="flex flex-wrap gap-3">
                 {[
@@ -146,9 +146,10 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
                   "C++",
                   "C",
                   "Git",
-                  "Linux 部屬",
+                  "Linux Deploy",
+                  "Discord Bot",
                   "Arduino",
-                  "硬體拆裝 (這算技能吧?)",
+                  "Hardware disassembly and assembly (is this considered a skill?)",
                   "Neovim",
                 ].map((skill) => (
                   <span
@@ -166,7 +167,7 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
               </div>
               <div className="my-4" />
               <h3 className="font-semibold mb-4 text-lg text-black">
-                正在努力...😵‍💫
+                Working on...😵‍💫
               </h3>
               <div className="flex flex-wrap gap-3">
                 {[
@@ -209,7 +210,7 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
                 "
                 >
                   <h4 className="font-medium text-lg text-black transition-colors group-hover:text-blue-600">
-                    比賽 ( Damn 我好爛 )
+                    Competition
                   </h4>
                   <p className="text-gray-600 transition-colors group-hover:text-gray-800">
                     2022 - 工科賽電腦修護 優勝
@@ -227,13 +228,15 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
                 "
                 >
                   <h4 className="font-medium text-lg text-black transition-colors group-hover:text-blue-600">
-                    學校
+                    School
                   </h4>
                   <p className="text-gray-600 transition-colors group-hover:text-gray-800">
-                    2020 ~ 2023 國立新化高級工業職業學校
+                    2020 ~ 2023 National HsinHua Industrial Vocational High
+                    School
                   </p>
                   <p className="text-gray-600 transition-colors group-hover:text-gray-800">
-                    2023 ~ (就學中...) 國立雲林科技大學
+                    2023 ~ (Currently studying...) National Yunlin University of
+                    Science and Technology
                   </p>
                 </div>
               </div>
@@ -346,9 +349,12 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
       return (
         <div className="p-6 animate-fadeIn">
           <div className="text-center mb-8">
-            <h2 className="text-3xl text-black font-bold mb-4">怎麼找我</h2>
+            <h2 className="text-3xl text-black font-bold mb-4">
+              How to reach me
+            </h2>
             <p className="text-gray-600 max-w-md mx-auto">
-              下面是可以找到我的管道還有一些連結
+              Here are the channels where you can find me, along with some
+              links.
             </p>
           </div>
           <div className="max-w-md mx-auto space-y-4">
@@ -427,7 +433,7 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
                 active:scale-95"
             >
               <FaDiscord className="mr-4 text-blue-600 text-2xl" size={24} />
-              <span className="text-black">Discord（神奇海螺）遊戲好玩</span>
+              <span className="text-black">Discord（神奇海螺）</span>
             </a>
             <a
               href="https://discord.gg/eWFeEz94kt"
@@ -438,9 +444,7 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
                 active:scale-95"
             >
               <FaDiscord className="mr-4 text-blue-600 text-2xl" size={24} />
-              <span className="text-black">
-                Discord Server（說謝謝）進來聊天
-              </span>
+              <span className="text-black">My Discord Server（說謝謝）</span>
             </a>
             <a
               href="https://www.facebook.com/kaminzhi1"
@@ -451,7 +455,7 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
                 active:scale-95"
             >
               <Facebook className="mr-4 text-blue-600" />
-              <span className="text-black">Facebook（陳品誌）</span>
+              <span className="text-black">Facebook</span>
             </a>
             <a
               href=""
@@ -463,13 +467,11 @@ const WindowContent: React.FC<WindowContentProps> = ({ type, onClose }) => {
             >
               <Linkedin className="mr-4 text-blue-600" />
               <del className="text-black">
-                <span className="text-black">
-                  LinkedIn Profile (不對我沒有LinkedIn)
-                </span>
+                <span className="text-black">LinkedIn Profile</span>
               </del>
             </a>
             <p className="text-black text-center mt-4 text-xl">
-              沒了就這樣，你在期待甚麼 (◐‿◑)
+              That's all, what were you expecting (◐‿◑)
             </p>
           </div>
         </div>
